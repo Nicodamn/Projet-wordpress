@@ -1,0 +1,208 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    color: #333;
+    margin: 0;
+    font-family: Dosis, sans-serif;
+}
+
+header {
+    background-color: #0d7619;
+}
+
+.menu li {
+    display:inline;
+}
+
+header nav {
+    display:flex;
+    float:right;
+    display:block;
+    color:white;
+    text-decoration: none;
+    padding:2rem;
+}
+
+.section-1 div{
+    width:1200px;
+}
+
+.section-1 {
+    background-image: url("../img/banniere.jpg");
+    min-height: 50rem;
+    font-size: 3rem;
+    background-size: cover;
+    text-align:center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-family:Dosis, sans-serif;
+}
+
+.section-1 p{
+    margin:10px;
+}
+
+.section-title {
+    color:#3A1E1F;
+    font-family: Dosis, sans-serif;
+    display: inline-block;
+    float:center;
+    font-size:1.8rem;
+    border-radius:3px;
+    
+}
+
+.section-title2 {
+    display: block;
+    color:#574C1F;
+}
+
+.section-title3 {
+    color:#068B35;
+}
+
+.section-link {
+    background-color:#066527;
+    border-radius:20px;
+    color:white;
+    font-size:2rem;
+    padding:1rem 1.8rem 1rem 1.8rem;
+}
+
+.section-2 {
+    
+    margin-left: auto;
+    margin-right:auto;
+    margin-top:10rem;
+    min-height: 30rem;
+    text-align:center;
+    width:1000px;
+    font-size: 1.5rem;
+    font-family:Dosis, sans-serif;
+}
+
+.section2-title {
+    font-size:3rem;
+    color:#574C1F;
+}
+
+.section2-text {
+    margin-top: 4rem;
+    color:grey;
+}
+
+.section-3 {
+    min-height: 25rem;
+    background-size: cover;
+}
+
+.section-4 {
+    background-color:#F1EDDB;
+    background-repeat: no-repeat;
+    background-position: bottom 0rem right 40rem;
+    min-height:50rem;
+}
+
+.section-4 .englobe-les2{
+    margin:auto;
+    margin-top:-30px;
+    text-align:center;
+    width:1200px;
+    
+} 
+
+.section-textegauche {
+    color:#068B35;
+    display:inline;
+}
+
+.section-textedroit {
+    color:#068B35;
+    display:inline;
+}
+
+.section-4 .section-4-div-gauche {
+       
+}
+
+.section4-title {
+    padding-top:6rem;
+    font-family: Dosis, sans-serif;
+    font-size: 3rem;
+    color:#574C1F;
+}
+/*
+.section4-textegauche {
+    grid-area : tgauche;
+}
+
+.section4-textedroit {
+    grid-area : tdroit;
+}
+
+.section4-bloc1 {
+    grid-area : lgauche;
+}
+
+.section4-bloc2 {
+    grid-area : ldroit; 
+}
+
+.section4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas : 'tgauche tdroit' 'lgauche ldroit';
+}
+*/
+
+.section-5 {
+    text-align: center;
+    min-height: 30rem;
+}
+
+.section5-title {
+    margin-top:6rem;
+    font-size:3rem;
+    color:#574C1F;
+}
+
+.section-6 {
+    min-height: 75rem;
+    background-size: cover;
+    
+}
+
+.section6-title {
+    text-align:center;
+    font-size:3rem;
+    color:#574C1F;
+}
+
+.section6-underscore {
+    text-align:center;
+}
+
+.section-6 .infos-pratiques {
+    margin-left:12rem;
+    margin-bottom:-1rem;
+    background-color:#9acf64;
+    width:35rem;
+    height:60rem;
+    color:white;
+    font-size: 2rem;
+    padding-left:10rem;
+    padding-right:10rem;
+    padding-top:15rem;
+    
+}
+
+.section-6 .infos-pratiques div p{
+    float:right;
+}
+
+.section-7 {
+    background-size:;
+}
