@@ -110,8 +110,7 @@ header nav {
     margin:auto;
     margin-top:-30px;
     text-align:center;
-    width:1200px;
-    
+    width:1200px;  
 } 
 
 .section-textegauche {
@@ -158,9 +157,17 @@ header nav {
 }
 */
 
+.blocrep1 {
+    
+}
+
+.blocrep2 {
+    
+}
 .section-5 {
     text-align: center;
     min-height: 30rem;
+    
 }
 
 .section5-title {
@@ -168,6 +175,16 @@ header nav {
     font-size:3rem;
     color:#574C1F;
 }
+
+.blocorateur {
+    width:8rem;
+}
+
+.section-5 .blocorateur {
+    display:inline-block;
+    
+}
+
 
 .section-6 {
     min-height: 75rem;
@@ -204,5 +221,38 @@ header nav {
 }
 
 .section-7 {
-    background-size:;
+    text-align:center;
+    height:20rem;
+}
+
+.section7-title {
+    text-align:center;
+    margin-top:6rem;
+    font-size:3rem;
+    color:#574C1F;
+}
+
+.section-8 {
+    padding-top:3rem;
+    height:20rem;
+    text-align: center;
+    background-color: #eeeeee;
+    padding-bottom:30rem;
+}
+
+.section8-title {
+    text-align: center;
+    margin-top:6rem;
+    font-size:3rem;
+    color:#574C1F;
+}
+
+.section-9 {
+    height:30rem;
+    background-color:white;
+}
+
+.footer {
+    background-color:grey;
+    height:6rem;
 }

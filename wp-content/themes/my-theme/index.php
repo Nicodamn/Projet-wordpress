@@ -74,6 +74,7 @@ if ( have_posts() ) {
     
     <div class="section-4-div-gauche">
       <p class="section4-textegauche"><?php the_field("section4_text_left") ?></p>
+      <div class="blocrep1">
       <p class="section4-bloc1">
         
         <?php  
@@ -86,9 +87,11 @@ if ( have_posts() ) {
         
         </p>
         </div>
+        </div>
     
     <div class="section-4-div-droit">
       <p class="section4-textedroit"><?php the_field("section4_text_right") ?></p>
+      <div class="blocrep2">
       <p class="section4-bloc2">
         
         <?php 
@@ -99,6 +102,7 @@ if ( have_posts() ) {
           echo "<br>";
         }?>
         </p>
+        </div>
         </div>
     <a class="section-link"><?php echo $banner_register_link['title']; // echo $banner_register_link['url'] ?> </a>
     </div>
@@ -119,9 +123,12 @@ if ( have_posts() ) {
     
     <div class="div-orateurs">
      
-        <?php 
+        <?php
+        
         
         $programme3 = get_field('section5_bloc_repeteur_orateurs');
+        
+        echo "<div class='blocorateur'>";
         
         foreach($programme3 as $program3){ ?>
           <img src="<?php echo $program3['photo_1']['url']; ?>" alt="">
@@ -129,6 +136,7 @@ if ( have_posts() ) {
           echo $program3['prenom_nom'];
           echo $program3['profession'];
           echo "<br>";
+          echo "</div>";
         }?>
         
         
@@ -162,11 +170,31 @@ if ( have_posts() ) {
     
 <!-- VIDEOS-->
 <section class="section-7">
-    <p class="section8" <?php the_field("section7_title_brown") ?></p>
-    <p><?php the_field?> </p>
+    <p class="section7-title"> <?php the_field("section7_title_brown") ?></p>
+    <p class=""><?php the_field("barres_underscore") ?> </p>
     <a class="section7-video"><img class="section7-videos"><?php echo $section8_video['url']; ?></img></a>   
 </section>
-    
+
+
+
+
+
+
+<!-- ACTUS -->     
+<section class="section-8">
+    <p class="section8-title"> <?php the_field("section8_title_brown") ?></p>
+    <p><?php the_field("barres_underscore") ?> </p>
+    <!-- <a class="section8-video"><img class="section8-videos"><?php /** echo $section8_video['url']; */?></img></a> -->  
+</section>
+
+
+<section class="section-9">
+     
+</section>
+
+
+
+
 
 </div>
 
